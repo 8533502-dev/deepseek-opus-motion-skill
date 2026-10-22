@@ -124,6 +124,10 @@ docs/教程.md                      教学文档和全部对比视频
 - 通过微信发送的视频会被压缩成 720p、30 fps。核对格式时，请用项目里 `out/film.mp4` 的原文件。
 - [Remotion 的许可证](https://www.remotion.dev/license)对个人和小团队免费，公司使用请先确认条款。
 
+## 许可证
+
+[MIT](LICENSE)。本仓库依赖的 Remotion 使用它自己的许可证，见上方“已知限制”。
+
 ## 致谢
 
 - [Remotion](https://www.remotion.dev)
