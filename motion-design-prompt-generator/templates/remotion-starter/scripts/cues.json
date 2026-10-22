@@ -1,0 +1,16 @@
+{
+  "duration": 10,
+  "bpm": 120,
+  "loop": false,
+  "palette": "data",
+  "bed": [
+    {"type": "pad", "note": "A2", "start": 0, "end": 10, "gain": 0.12, "fade": 2}
+  ],
+  "patterns": [
+    {"type": "tick", "every": 1, "start": 0, "end": 10, "gain": 0.08}
+  ],
+  "events": [
+    {"t": 0.1, "type": "bell", "note": "E5", "gain": 0.25},
+    {"t": 0.5, "type": "whoosh", "dur": 0.6, "gain": 0.3}
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "motion-film",
+  "private": true,
+  "scripts": {
+    "score": "node scripts/score.mjs",
+    "prestudio": "node scripts/score.mjs",
+    "studio": "remotion studio",
+    "prerender": "node scripts/score.mjs",
+    "render": "remotion render Film out/film.mp4",
+    "prepreview": "node scripts/score.mjs",
+    "preview": "remotion render Film out/preview.mp4 --scale=0.5",
+    "still": "remotion still Film out/still.png",
+    "check": "bash scripts/check.sh"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.537",
+    "@remotion/google-fonts": "4.0.537",
+    "@remotion/noise": "4.0.537",
+    "@remotion/paths": "4.0.537",
+    "@remotion/shapes": "4.0.537",
+    "@remotion/transitions": "4.0.537",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "remotion": "4.0.537"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.8",
+    "typescript": "5.8.3"
+  },
+  "allowScripts": {
+    "esbuild@0.28.1": true
+  }
+}

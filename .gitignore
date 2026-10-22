@@ -1,0 +1,4 @@
+node_modules/
+out/
+public/score.wav
+.DS_Store
