@@ -13,9 +13,11 @@
 
 > English: A skill that makes DeepSeek (or any model) produce Remotion motion-design films close to what Claude Opus 5.5 makes from the same prompt. It adds a priority order, a method for deriving a style from any prompt, playbooks for nine element types, a tested Remotion starter with motion, material, character-rig and sound helpers, and a five-juror self-review.
 
-![青山：DeepSeek（左）与 Opus 5.5（右）](docs/media/images/qingshan-v3-vs-opus.png)
+![同一条提示词，两个模型，几乎同一部片子](docs/media/images/hero.png)
 
-*上图：同一条水墨提示词，左边是 DeepSeek 加本 skill，右边是 Opus 5.5。*
+![青山：DeepSeek + skill 与 Opus 5.5 同步播放](docs/media/images/qingshan-side-by-side.gif)
+
+*同一条水墨提示词，左边是 DeepSeek 加本 skill，右边是 Claude Opus 5.5，同步播放前 12 秒。*
 
 📖 **完整教程和全部测试视频：[docs/教程.md](docs/教程.md)**
 
@@ -99,7 +101,14 @@ npm run check
 | SPECTRA | 三种材质 | 0.68–0.89 | 换材质时颜色丢了，促成了材质渲染器 |
 | 雨中站台 | 角色故事 | 0.40–0.49 | 场景、光线、字幕都比较弱，促成了故事类规则和角色骨架 |
 
-每组的视频、截图和分析，见[教程](docs/教程.md)。
+<table>
+<tr>
+<td><img src="docs/media/images/compound-vs-opus.png" alt="复利：DeepSeek 与 Opus 对比"></td>
+<td><img src="docs/media/images/spectra-vs-opus.png" alt="SPECTRA：DeepSeek 与 Opus 对比"></td>
+</tr>
+</table>
+
+每组的视频、对比卡和分析，见[教程](docs/教程.md)。
 
 ## 项目结构
 
